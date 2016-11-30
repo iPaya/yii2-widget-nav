@@ -1,0 +1,25 @@
+{
+    "name": "ipaya/yii2-widget-nav",
+    "description": "The Nav widget for Yii2.",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension",
+        "nav"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Di Zhang",
+            "email": "zhangdi_me@163.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "iPaya\\widgets\\nav\\": "src"
+        }
+    }
+}
